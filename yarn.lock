@@ -1429,17 +1429,18 @@ hawk@~3.1.3:
     hoek "2.x.x"
     sntp "1.x.x"
 
-"haxe-loader@git://github.com/elsassph/webpack-haxe-loader.git#feature/modular":
-  version "0.2.1"
-  resolved "git://github.com/elsassph/webpack-haxe-loader.git#89bc2cb25dc5f9854e128a69f50cfc15798caaa0"
+"haxe-loader@git+ssh://git@github.com/jasononeil/webpack-haxe-loader.git":
+  version "0.5.0"
+  resolved "git+ssh://git@github.com/jasononeil/webpack-haxe-loader.git#ac0769d0601f2ed79df604dd71722188cda83502"
   dependencies:
     hash-sum "^1.0.2"
-    haxe-modular "git://github.com/elsassph/haxe-modular.git#feature/webpack"
+    haxe-modular "^0.6.0"
+    loader-utils "^1.1.0"
     tmp "0.0.31"
 
-"haxe-modular@git://github.com/elsassph/haxe-modular.git#feature/webpack":
-  version "0.2.0"
-  resolved "git://github.com/elsassph/haxe-modular.git#43ec886278e1ceeb39ea3e3db0bd7ce9332fc9ca"
+haxe-modular@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/haxe-modular/-/haxe-modular-0.6.0.tgz#ca4e7c5b76aa4bfbbcf288e6b2b39b8f922e2a28"
   dependencies:
     acorn "^4.0.3"
     graphlib "^2.1.1"
@@ -2725,8 +2726,8 @@ rc@^1.1.7:
     strip-json-comments "~2.0.1"
 
 react-deep-force-update@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.0.1.tgz#4f7f6c12c3e7de42f345992a3c518236fa1ecad3"
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.1.1.tgz#8ea4263cd6455a050b37445b3f08fd839d86e909"
 
 react-proxy@^2.0.8:
   version "2.0.8"
